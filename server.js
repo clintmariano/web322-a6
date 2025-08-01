@@ -1,7 +1,22 @@
 /********************************************************************************
 * WEB322 – Assignment 06
-* Name: Clinton Jacob Mariano  Student ID: 151449220
-* Published URL: https://web322-a5-alpha.vercel.app/
+*
+* I declare that this assignment is my own work and completed based on my
+* current understanding of the course concepts.
+*
+* The assignment was completed in accordance with:
+* a. The Seneca's Academic Integrity Policy
+* https://www.senecacollege.ca/about/policies/academic-integrity-policy.html
+*
+* b. The academic integrity policies noted in the assessment description
+*
+* I did NOT use generative AI tools (ChatGPT, Copilot, etc) to produce the code
+* for this assessment.
+*
+* Name: __Clinton Jacob Mariano__ Student ID: _151449220_
+*
+* Published URL: https://web322-a6-kohl.vercel.app/
+*
 ********************************************************************************/
 
 const HTTP_PORT = process.env.PORT || 8080;
