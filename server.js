@@ -8,7 +8,7 @@ const HTTP_PORT = process.env.PORT || 8080;
 
 const express = require("express");
 const app = express();
-app.use(express.static("public"));                   // css, images
+app.use(express.static(__dirname + '/public'));                  // css, images
 app.set("view engine", "ejs");                       // ejs templates
 app.use(express.urlencoded({ extended: true }));     // form data
 
@@ -20,6 +20,7 @@ app.use(session({
 }));
 
 require("dotenv").config();
+app.set('views', __dirname + '/views');
 const mongoose = require("mongoose");
 
 const carSchema = new mongoose.Schema({
